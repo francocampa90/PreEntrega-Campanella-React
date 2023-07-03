@@ -10,9 +10,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer servicios={"Instalaciones Electricas, Mantenciones Eléctricas, Iluminacion"}/>
+      <ItemListContainer servicios={"Contamos con la mayor variedad en productos de iluminación. Calidad y entrega garantizadas."}/>
       <CartWidget/>
-
     </div>
   )
 }

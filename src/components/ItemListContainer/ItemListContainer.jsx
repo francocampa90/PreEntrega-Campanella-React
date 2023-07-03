@@ -4,7 +4,7 @@
 const ItemListContainer = ({servicios}) => {
     return(
         <div className='servicios_container'>
-            <h2>SERVICIOS ELECTRICOS Y DE ILUMINACION</h2>
+            <h2>HOGAR</h2>
             <p>{servicios}</p>
         </div>
         
