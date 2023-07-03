@@ -1,0 +1,25 @@
+.div-cart{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
+    .div-cart p{
+        color: white;
+    }
+
+    .cart{
+        width: 35px;
+        cursor: pointer;
+        transition: all .3s ease;
+        
+        
+        &:hover{
+            opacity:.7;
+            transform: scale(.9) translateY(-10%);
+        }
+    }
+}
+
+
+
+
