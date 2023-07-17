@@ -7,10 +7,10 @@ const ItemList = ({productos}) =>{
         <div className='catalogo__contenedor'>
             <h2>Productos</h2>
             <hr />
-            <div className='row'>
-                {
-                    productos.map((prod) => <ItemCard item={prod}/>)   
-                }
+            <div className='flex flex-row flex-wrap'>
+            {
+                productos.map((prod) => <ItemCard key={prod.id} item={prod}/>)  
+            }
             </div>
         </div> 
 
