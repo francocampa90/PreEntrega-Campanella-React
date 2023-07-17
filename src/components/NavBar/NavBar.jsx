@@ -1,5 +1,6 @@
 
 import shoppingCart from '../../assets/shopping-cart_115264.svg'
+import {Link} from 'react-router-dom'
 
 
 export const NavBar = () => {
@@ -11,10 +12,12 @@ export const NavBar = () => {
                 <img src="" alt="" />
                 
                 <nav className='navbar'>
-                    <a className="navbar_link" href="#">Inicio</a>
-                    <a className="navbar_link" href="#">Servicios</a>
-                    <a className="navbar_link" href="#">Productos</a>
-                    <a className="navbar_link" href="#">Contacto</a>
+                    <Link className="navbar_link" to="/">Inicio</Link>
+                    <Link className="navbar_link" to="/Servicios">Servicios</Link>
+                    <Link className="navbar_link" to="/productos/carniceria">carniceria</Link>
+                    <Link className="navbar_link" to="/productos/verduleria">verduelria</Link>
+                    <Link className="navbar_link" to="/productos/panaderia">panaderia</Link>
+                    <Link className="navbar_link" to="/Contacto">Contacto</Link>
                 </nav>  
                 <div className='div_cart'>
                      <img className='cart' src={shoppingCart} alt="" />

@@ -1,7 +1,12 @@
 import { NavBar } from "./components/NavBar/NavBar"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import Contacto from "./components/Contacto/Contacto"
+import Servicios from "./components/Servicios/Servicios"
+import Inicio from "./components/Inicio/Inicio"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
+
 import { CartWidget } from "./components/CartWidget/CartWidget"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 
 import './styles/styles.scss'
 
@@ -13,9 +18,23 @@ function App() {
     <BrowserRouter>
      
         <NavBar />
-        {/*<ItemListContainer servicios={"Contamos con la mayor variedad en productos de iluminación. Calidad y entrega garantizadas."}/>*/}
+
+        <Routes>
+          <Route path = "/" element={<Inicio/>}/> 
+          <Route path = "/ItemListContainer" element={<ItemListContainer/>}/> {/*Productos*/}
+          <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
+          <Route path="/productos/:categoryId" element={<ItemListContainer/>}/>
+
+
+          <Route path = "/Contacto" element={<Contacto/>}/>
+          <Route path = "/Servicios" element={<Servicios/>}/>
+          <Route path="*" element={ <Navigate to="/"/> }/>
+            
+        </Routes>
+
+
         {/*<CartWidget/>*/}
-        <ItemListContainer/>
+        
      
     </BrowserRouter>
   )

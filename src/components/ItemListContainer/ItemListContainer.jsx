@@ -9,7 +9,7 @@ import { useProductos } from '../../hooks/useProductos'
 const ItemListContainer = () => {
  
     const {productos, loading } = useProductos()
-    console.log(loading, productos)
+    //console.log(loading, productos)
     
     return (
         <div>
