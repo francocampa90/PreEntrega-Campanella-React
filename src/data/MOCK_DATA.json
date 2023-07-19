@@ -5,8 +5,8 @@
         "descripcion": "Lorem ipsum ",
         "precio": 1500,
         "stock": 10,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "verduleria"
+        "img": "/lampa1.jpg",
+        "category": "lampara pie"
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 2500,
         "stock": 5,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "verduleria"
+        "img": "/lampa2.jpeg",
+        "category": "lampara pie"
     },
     {
         "id": 3,
@@ -23,8 +23,8 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 3500,
         "stock": 8,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "img": "/lampa3.jpeg",
+        "category": "lampara pie"
     },
     {
         "id": 4,
@@ -32,61 +32,106 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 4500,
         "stock": 14,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "img": "/lampa4.jpeg",
+        "category": "lampara pie"
     },
     {
         "id": 5,
+        "nombre": "Producto 4",
+        "descripcion": "Lorem ipsum ...",
+        "precio": 4500,
+        "stock": 14,
+        "img": "/lampa5.png",
+        "category": "aplique"
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 4",
+        "descripcion": "Lorem ipsum ...",
+        "precio": 4500,
+        "stock": 14,
+        "img": "/lampa6.png",
+        "category": "aplique"
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 4",
+        "descripcion": "Lorem ipsum ...",
+        "precio": 4500,
+        "stock": 14,
+        "img": "/lampa7.jpg",
+        "category": "aplique"
+    },
+    {
+        "id": 8,
         "nombre": "Producto 5",
         "descripcion": "Lorem ipsum ...",
         "precio": 5500,
         "stock": 20,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "img": "/lampa8.jpg",
+        "category": "plafones"
     },
     {
-        "id": 6,
+        "id": 9,
         "nombre": "Producto 6",
         "descripcion": "Lorem ipsum ...",
         "precio": 6500,
         "stock": 15,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "verduleria"
-    },
-    {
-        "id": 7,
-        "nombre": "Producto 7",
-        "descripcion": "Lorem ipsum ",
-        "precio": 1500,
-        "stock": 4,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
-    },
-    {
-        "id": 8,
-        "nombre": "Producto 8",
-        "descripcion": "Lorem ipsum ",
-        "precio": 1500,
-        "stock": 12,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "carniceria"
-    },
-    {
-        "id": 9,
-        "nombre": "Producto 9",
-        "descripcion": "Lorem ipsum ",
-        "precio": 1500,
-        "stock": 17,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "carniceria"
+        "img": "/lampa9.jpg",
+        "category": "plafones"
     },
     {
         "id": 10,
         "nombre": "Producto 10",
         "descripcion": "Lorem ipsum ",
         "precio": 1500,
+        "stock": 4,
+        "img": "/lampa11.jpg",
+        "category": "plafones"
+    },
+    {
+        "id": 11,
+        "nombre": "Producto 11",
+        "descripcion": "Lorem ipsum ",
+        "precio": 1500,
+        "stock": 12,
+        "img": "/lampa12.jpg",
+        "category": "colgante"
+    },
+    {
+        "id": 12,
+        "nombre": "Producto 12",
+        "descripcion": "Lorem ipsum ",
+        "precio": 1500,
+        "stock": 17,
+        "img": "/lampa13.jpg",
+        "category": "colgante"
+    },
+    {
+        "id": 13,
+        "nombre": "Producto 13",
+        "descripcion": "Lorem ipsum ",
+        "precio": 1500,
         "stock": 7,
-        "img": "https://dummyimage.com/200x200/000",
-        "category": "panaderia"
+        "img": "/lampa14.jpg",
+        "category": "colgante"
+    },
+    {
+        "id": 14,
+        "nombre": "Producto 14",
+        "descripcion": "Lorem ipsum ",
+        "precio": 1500,
+        "stock": 7,
+        "img": "/lampa15.jpg",
+        "category": "colgante"
+    },
+    {
+        "id": 15,
+        "nombre": "Producto 15",
+        "descripcion": "Lorem ipsum ",
+        "precio": 1500,
+        "stock": 7,
+        "img": "/lampa16.jpg",
+        "category": "colgante"
     }
 ]

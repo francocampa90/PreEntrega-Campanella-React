@@ -13,15 +13,20 @@ export const NavBar = () => {
                 
                 <nav className='navbar'>
                     <Link className="navbar_link" to="/">Inicio</Link>
-                    <Link className="navbar_link" to="/Servicios">Servicios</Link>
-                    <Link className="navbar_link" to="/productos/carniceria">carniceria</Link>
-                    <Link className="navbar_link" to="/productos/verduleria">verduelria</Link>
-                    <Link className="navbar_link" to="/productos/panaderia">panaderia</Link>
+                    <Link className="navbar_link" to="/ItemListContainer">Productos</Link>
+                    <Link className="navbar_link" to="/productos/plafones">Plafones</Link>
+                    <Link className="navbar_link" to="/productos/lampara pie">Lampara pie</Link>
+                    <Link className="navbar_link" to="/productos/aplique">Apliques</Link>
+                    <Link className="navbar_link" to="/productos/colgante">Colgantes</Link>
                     <Link className="navbar_link" to="/Contacto">Contacto</Link>
                 </nav>  
                 <div className='div_cart'>
                      <img className='cart' src={shoppingCart} alt="" />
                      <p className='numerito'>1</p>
+                </div>
+
+                <div>
+
                 </div>
  
              </div>
