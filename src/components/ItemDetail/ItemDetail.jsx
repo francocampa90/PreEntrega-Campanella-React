@@ -4,7 +4,7 @@ const ItemDetail = ({item}) => {
 
     return (
 
-        <div className="catalogo__contenedor">
+        <div className="catalogo__contenedor h-300">
             <h4>{item.nombre}</h4>
             <img src={item.img} alt={item.nombre} />
             <p>precio: ${item.precio}</p>

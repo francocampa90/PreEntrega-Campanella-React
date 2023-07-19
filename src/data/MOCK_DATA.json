@@ -5,7 +5,7 @@
         "descripcion": "Lorem ipsum ",
         "precio": 1500,
         "stock": 10,
-        "img": "/lampa1.jpg",
+        "img": "/lampa1.png",
         "category": "lampara pie"
     },
     {
@@ -14,7 +14,7 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 2500,
         "stock": 5,
-        "img": "/lampa2.jpeg",
+        "img": "/lampa2.png",
         "category": "lampara pie"
     },
     {
@@ -23,7 +23,7 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 3500,
         "stock": 8,
-        "img": "/lampa3.jpeg",
+        "img": "/lampa3.png",
         "category": "lampara pie"
     },
     {
@@ -32,12 +32,12 @@
         "descripcion": "Lorem ipsum ...",
         "precio": 4500,
         "stock": 14,
-        "img": "/lampa4.jpeg",
+        "img": "/lampa4.png",
         "category": "lampara pie"
     },
     {
         "id": 5,
-        "nombre": "Producto 4",
+        "nombre": "Producto 5",
         "descripcion": "Lorem ipsum ...",
         "precio": 4500,
         "stock": 14,
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "nombre": "Producto 4",
+        "nombre": "Producto 6",
         "descripcion": "Lorem ipsum ...",
         "precio": 4500,
         "stock": 14,
@@ -55,74 +55,74 @@
     },
     {
         "id": 7,
-        "nombre": "Producto 4",
+        "nombre": "Producto 7",
         "descripcion": "Lorem ipsum ...",
         "precio": 4500,
         "stock": 14,
-        "img": "/lampa7.jpg",
+        "img": "/lampa7.png",
         "category": "aplique"
     },
     {
         "id": 8,
-        "nombre": "Producto 5",
+        "nombre": "Producto 8",
         "descripcion": "Lorem ipsum ...",
         "precio": 5500,
         "stock": 20,
-        "img": "/lampa8.jpg",
+        "img": "/lampa8.png",
         "category": "plafones"
     },
     {
         "id": 9,
-        "nombre": "Producto 6",
+        "nombre": "Producto 9",
         "descripcion": "Lorem ipsum ...",
         "precio": 6500,
         "stock": 15,
-        "img": "/lampa9.jpg",
+        "img": "/lampa9.png",
         "category": "plafones"
     },
     {
         "id": 10,
         "nombre": "Producto 10",
         "descripcion": "Lorem ipsum ",
-        "precio": 1500,
+        "precio": 2500,
         "stock": 4,
-        "img": "/lampa11.jpg",
+        "img": "/lampa11.png",
         "category": "plafones"
     },
     {
         "id": 11,
         "nombre": "Producto 11",
         "descripcion": "Lorem ipsum ",
-        "precio": 1500,
+        "precio": 2600,
         "stock": 12,
-        "img": "/lampa12.jpg",
+        "img": "/lampa12.png",
         "category": "colgante"
     },
     {
         "id": 12,
         "nombre": "Producto 12",
         "descripcion": "Lorem ipsum ",
-        "precio": 1500,
+        "precio": 4100,
         "stock": 17,
-        "img": "/lampa13.jpg",
+        "img": "/lampa13.png",
         "category": "colgante"
     },
     {
         "id": 13,
         "nombre": "Producto 13",
         "descripcion": "Lorem ipsum ",
-        "precio": 1500,
+        "precio": 3100,
         "stock": 7,
-        "img": "/lampa14.jpg",
+        "img": "/lampa14.png",
         "category": "colgante"
     },
     {
         "id": 14,
         "nombre": "Producto 14",
         "descripcion": "Lorem ipsum ",
-        "precio": 1500,
+        "precio": 1600,
         "stock": 7,
-        "img": "/lampa15.jpg",
+        "img": "/lampa15.png",
         "category": "colgante"
     },
     {
@@ -131,7 +131,7 @@
         "descripcion": "Lorem ipsum ",
         "precio": 1500,
         "stock": 7,
-        "img": "/lampa16.jpg",
+        "img": "/lampa16.png",
         "category": "colgante"
     }
 ]

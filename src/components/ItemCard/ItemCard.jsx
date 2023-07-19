@@ -3,7 +3,7 @@
 const ItemCard = ({item}) => {
     
     return(
-        <div className='col-3 m-2 container-custom '>
+        <div className='col-3 m-2 container-custom'>
                             <h4>{item.nombre}</h4>
                             <img src={item.img} alt={item.nombre} />
                             <p>precio: ${item.precio}</p>

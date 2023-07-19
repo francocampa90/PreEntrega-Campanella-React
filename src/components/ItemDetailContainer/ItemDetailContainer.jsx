@@ -30,7 +30,7 @@ const ItemDetailContainer = () => {
         <div className="catalogo__contenedor">
             {
                 loading
-                    ? <h2>cargando ... 2</h2>
+                    ? <h2>Cargando</h2>
                     : <ItemDetail item={item}/>
             }
         </div>
