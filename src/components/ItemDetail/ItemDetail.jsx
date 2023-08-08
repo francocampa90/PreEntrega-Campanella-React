@@ -6,7 +6,11 @@ const ItemDetail = ({item}) => {
     const[cantidad, setCantidad] = useState(1)
 
     const handleAgregar =() => {
-        cantidad: counter
+        console.log("Item a agregar", {
+            ...item,
+            cantidad,
+        })
+        
     }
 
     return (
@@ -19,8 +23,8 @@ const ItemDetail = ({item}) => {
             {/*<button className='bg-blue-500 px-4 py-1 rounded text-white'>comprar</button>*/}
             <ItemCount
                 max={item.stock}
-                counter={cantidad}
-                setCounter={setCantidad}
+                cantidad={cantidad}
+                setCantidad={setCantidad}
                 agregar={handleAgregar}
             />
         </div>
