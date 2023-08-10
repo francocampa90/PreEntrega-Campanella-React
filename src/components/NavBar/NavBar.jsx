@@ -1,6 +1,7 @@
 
 import shoppingCart from '../../assets/shopping-cart_115264.svg'
 import {Link} from 'react-router-dom'
+import CartWidget from '../CartWidget/CartWidget'
 
 
 export const NavBar = () => {
@@ -20,11 +21,11 @@ export const NavBar = () => {
                     <Link className="navbar_link" to="/productos/colgante">Colgantes</Link>
                     <Link className="navbar_link" to="/Contacto">Contacto</Link>
                 </nav>  
-                <div className='div_cart'>
+                {/*<div className='div_cart'>
                      <img className='cart' src={shoppingCart} alt="" />
                      <p className='numerito'>1</p>
-                </div>
-
+                </div>*/}
+                <CartWidget/>
                 <div>
 
                 </div>

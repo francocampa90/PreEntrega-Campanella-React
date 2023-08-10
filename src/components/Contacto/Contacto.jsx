@@ -1,7 +1,12 @@
-
+import { useContext, useEffect, useState } from "react"
+import { CartContext } from "../../context/CartContext"
 
 
 const Contacto = () => {
+
+    const contexto = useContext(CartContext)
+
+    console.log(contexto)
    
 
     return (
