@@ -20,7 +20,7 @@ const ItemListContainer = () => {
         const q = categoryId
                     ? query(productosRef, where('category', "==", categoryId) )
                     : productosRef
-       
+        
         getDocs(q)
             .then((resp) => {
                 const docs = resp.docs.map((doc) => {

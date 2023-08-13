@@ -41,7 +41,7 @@ const CartView = () => {
             <div>
                 <h4 className="text-3xl my-2">Total: ${totalCompra()}</h4>
                 <button onClick={vaciarCarrito} className="bg-red-600 px-3 py-1 rounded text-white">Vaciar carrito</button>
-                <Link className="bg-blue-600 px-4 py-1  rounded text-white" to="/checkout">Terminar mi compra</Link>
+                <Link className="bg-blue-600 px-4 py-1  rounded text-white" to="/Checkout">Terminar mi compra</Link>
             </div>            
         </div>
     )
