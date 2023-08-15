@@ -27,9 +27,7 @@ const Checkout = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        // validaciones de formulario
-        // if (!validaciones) return
-
+       
         const orden = {
             cliente: values,
             items: cart.map(item => ({id: item.id, precio: item.precio, cantidad: item.cantidad, nombre: item.nombre})),
@@ -37,8 +35,7 @@ const Checkout = () => {
             fyh: new Date()
         }
 
-        console.log(orden)
-        // enviarlo a firebase
+        console.log(orden)  //  orden a firebase
 
         orden.items.forEach(item => {
             const docRef = doc(db, "productos", item.id)
@@ -57,13 +54,13 @@ const Checkout = () => {
 
         })
 
-        // const ordersRef = collection(db, "orders")
-        // addDoc(ordersRef, orden)
-        //     .then((doc) => {
-        //         console.log(doc.id)
-        //         vaciarCarrito()
-        //         setOrderId(doc.id)
-        //     })
+        const ordersRef = collection(db, "orders")
+        addDoc(ordersRef, orden)
+            .then((doc) => {
+                console.log(doc.id)
+                vaciarCarrito()
+                setOrderId(doc.id)
+            })
     }
 
     if (orderId) {
@@ -73,7 +70,7 @@ const Checkout = () => {
                 <hr/>
                 <p>Tu número de orden es: <strong>{orderId}</strong></p>
 
-                <Link to="/">Volver</Link>
+                <Link className="bg-blue-600 px-4 py-1  rounded text-white" to="/">Volver</Link>
             </div>
         )
     }
@@ -111,11 +108,11 @@ const Checkout = () => {
                     value={values.email}
                     type="email"
                     className="form-control my-2"
-                    placeholder="Tu email"
+                    placeholder="Email"
                     name="email"
                 />
 
-                <button className="btn btn-success">Enviar</button>
+                <button className="bg-blue-600 px-4 py-1  rounded text-white">Enviar</button>
             </form>
         </div>
     )

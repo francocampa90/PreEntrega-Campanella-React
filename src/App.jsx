@@ -8,6 +8,7 @@ import { CartProvider } from "./context/CartContext";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import CartView from "./components/CartView/CartView"
 import Checkout from "./components/Checkout/Checkout"
+
 import './styles/styles.scss'
 
 
@@ -31,7 +32,6 @@ function App() {
               <Route path="/cart" element={<CartView /> }/>
               <Route path="*" element={ <Navigate to="/"/> }/>
               <Route path="/Checkout" element={ <Checkout /> }/>
-                
             </Routes>
 
         
