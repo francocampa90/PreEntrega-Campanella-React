@@ -3,6 +3,7 @@ import { CartContext } from "../../context/CartContext"
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore"
 import { db } from "../../firebase/config"
 import { Link, Navigate } from "react-router-dom"
+import Swal from "sweetalert2"
 
 
 
@@ -64,9 +65,14 @@ const Checkout = () => {
     }
 
     if (orderId) {
+
+        Swal.fire({
+            title: "Tu compra se registró exitosamente!",
+            icon: 'success',
+        })
+
         return (
             <div className="container my-5">
-                <h2 className="text-4xl">Tu compra se registró exitosamente!</h2>
                 <hr/>
                 <p>Tu número de orden es: <strong>{orderId}</strong></p>
 
@@ -81,7 +87,7 @@ const Checkout = () => {
 
     return (
         <div className="container my-5">
-            <h2>Checkout</h2>
+           
             <hr/>
 
             <form onSubmit={handleSubmit}>
