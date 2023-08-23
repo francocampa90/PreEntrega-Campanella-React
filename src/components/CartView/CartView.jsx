@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import { FaTrashAlt } from 'react-icons/fa'
 import { Link } from "react-router-dom"
+import Swal from "sweetalert2"
 
 
 
@@ -11,8 +12,19 @@ const CartView = () => {
     const { cart, totalCompra, vaciarCarrito, removerDelCarrito } = useContext(CartContext)
 
     if (cart.length === 0) {
+
+        Swal.fire({
+            position: 'center',
+            icon: 'error',
+            title: 'Se vacio tu carrito',
+            showConfirmButton: false,
+            timer: 1500
+            })
+
         return (
             <div className="container my-5">
+
+                
                 <h2 className="text-4xl">Tu carrito está vacío </h2>
                 <hr/>
                 <Link to="/ItemListContainer" className="bg-blue-500 px-4 py-1 rounded text-white">Ir a comprar</Link>

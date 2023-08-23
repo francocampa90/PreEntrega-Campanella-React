@@ -21,15 +21,7 @@ export const NavBar = () => {
                     <Link className="navbar_link" to="/productos/colgante">Colgantes</Link>
                     <Link className="navbar_link" to="/Contacto">Contacto</Link>
                 </nav>  
-                {/*<div className='div_cart'>
-                     <img className='cart' src={shoppingCart} alt="" />
-                     <p className='numerito'>1</p>
-                </div>*/}
                 <CartWidget/>
-                <div>
-
-                </div>
- 
              </div>
         </header>
     )

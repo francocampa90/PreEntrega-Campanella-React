@@ -30,6 +30,8 @@ export const CartProvider = ({children}) => {
 
     const vaciarCarrito = () => {
         setCart([])
+
+
     }
 
     useEffect(() => {

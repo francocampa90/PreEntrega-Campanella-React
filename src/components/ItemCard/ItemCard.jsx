@@ -8,9 +8,7 @@ const ItemCard = ({item}) => {
                             <h4>{item.nombre}</h4>
                             <img src={item.img} alt={item.nombre} />
                             <p>precio: ${item.precio}</p>
-                            {/*<p className='mt-1 text-g font-medium text-green-700'>Stock {item.stock}</p>*/}
-                            
-                            
+
                             {
                                 item.stock < 10 && <p className="text-red-500"> Quedan solo {item.stock} unidades!</p>
                             }

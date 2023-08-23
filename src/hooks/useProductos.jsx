@@ -9,12 +9,7 @@ export const useProductos = () => {
     const [loading, setLoading] = useState(true)
 
     const {categoryId} = useParams()
-    //console.log(categoryId)
-    
-
-   // const params = useParams()
-   // console.log(params)
-
+  
     useEffect(() => {
         setLoading(true)
 

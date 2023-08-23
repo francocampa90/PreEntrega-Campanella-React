@@ -36,6 +36,7 @@ const ItemDetailContainer = () => {
                 loading
                     ? <Loader />
                     : <ItemDetail item={item}/>
+
             }
         </div>
     )

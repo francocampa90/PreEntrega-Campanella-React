@@ -72,7 +72,7 @@ const Checkout = () => {
         })
 
         return (
-            <div className="container my-5">
+            <div className="my-5">
                 <hr/>
                 <p>Tu número de orden es: <strong>{orderId}</strong></p>
 
@@ -86,7 +86,7 @@ const Checkout = () => {
     }
 
     return (
-        <div className="container my-5">
+        <div className="my-5">
            
             <hr/>
 
